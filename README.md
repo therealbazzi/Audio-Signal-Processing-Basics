@@ -16,5 +16,13 @@ https://github.com/therealbazzi/Audio-Signal-Processing-Basics/blob/83b97faa6cef
 Let's generate some cosines and complex exponentials, then plot them.
 https://github.com/therealbazzi/Audio-Signal-Processing-Basics/blob/83b97faa6cefe1bbe675940cb974f41b2e52911d/Main.m#L27-L71
 
+## Part 4 -- Listening to the signals
+Listen to the signals x2, x3, and x4 using the `soundsc` command.
+https://github.com/therealbazzi/Audio-Signal-Processing-Basics/blob/83b97faa6cefe1bbe675940cb974f41b2e52911d/Main.m#L72-L84
 
+## Part 5 -- Generating signals
+Generate another signals and plot 
+https://github.com/therealbazzi/Audio-Signal-Processing-Basics/blob/83b97faa6cefe1bbe675940cb974f41b2e52911d/Main.m#L85-L91
 
+## Part 7 -- 
+Consider the discrete-time filter defined by `h = fir1(40,0.2)`. The coefficients h represent a 40th order filter, with a corner frequency of 0.2 times the Nyquist frequency. Use Matlab help on `fir1` to learn more about this command. Plot the frequency response of the filter h using the command `freqz` then plot.

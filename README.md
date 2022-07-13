@@ -24,5 +24,22 @@ https://github.com/therealbazzi/Audio-Signal-Processing-Basics/blob/83b97faa6cef
 Generate another signals and plot 
 https://github.com/therealbazzi/Audio-Signal-Processing-Basics/blob/83b97faa6cefe1bbe675940cb974f41b2e52911d/Main.m#L85-L91
 
-## Part 7 -- 
+## Part 7 -- Filter design
 Consider the discrete-time filter defined by `h = fir1(40,0.2)`. The coefficients h represent a 40th order filter, with a corner frequency of 0.2 times the Nyquist frequency. Use Matlab help on `fir1` to learn more about this command. Plot the frequency response of the filter h using the command `freqz` then plot.
+https://github.com/therealbazzi/Audio-Signal-Processing-Basics/blob/83b97faa6cefe1bbe675940cb974f41b2e52911d/Main.m#L93-L98
+
+## Part 8 -- Filtering an audio signal
+Pass the signal x5 through the filter h using the command: `x6 = filter(h,1,x5)` and plot the amplitude spectrum of x6.
+https://github.com/therealbazzi/Audio-Signal-Processing-Basics/blob/83b97faa6cefe1bbe675940cb974f41b2e52911d/Main.m#L99-L105
+
+## Part 9 -- Listening to the filtered signal
+Listen to the audio signal x6 using the `soundsc` command
+https://github.com/therealbazzi/Audio-Signal-Processing-Basics/blob/83b97faa6cefe1bbe675940cb974f41b2e52911d/Main.m#L106-L109
+
+## Part 10 -- Spectrum plotting
+Load the data in the file p2file2.mat. It includes a discrete-time waveform x sampled at a frequency of 64 kHz. The signal x contains two 8 kHz AM radio channels. Plot the amplitude spectrum of x.
+https://github.com/therealbazzi/Audio-Signal-Processing-Basics/blob/83b97faa6cefe1bbe675940cb974f41b2e52911d/Main.m#L110-L128
+
+## Part 11 -- Demodulation and filtering
+Demodulate and filter down the signals in the two AM radio channels. Include plots of the Fourier spectra after each step of the procedure (i.e. plot after the demodulation step, and one after the low- pass filtering step). Listen to the audio in each channel using the `soundsc` command
+https://github.com/therealbazzi/Audio-Signal-Processing-Basics/blob/83b97faa6cefe1bbe675940cb974f41b2e52911d/Main.m#L129-L165

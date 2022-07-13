@@ -4,10 +4,17 @@ This packages is meant for audio digital signal processing for beginners. It sho
 ## How to read the Main.m
 It's pretty easy, the Main.m is split into different parts and the tasks per part are given below:
 
-## Part 1 
+## Part 1 -- Loading an audio signal
 Load the audio signal x stored in the file p2file1.mat into the Matlab environment, using the load command. You can listen to the signal using the Matlab command soundsc, and by specifying a sampling frequency of 8 kHz.
 https://github.com/therealbazzi/Audio-Signal-Processing-Basics/blob/83b97faa6cefe1bbe675940cb974f41b2e52911d/Main.m#L2-L10
 
-## Part 2 
+## Part 2 -- FFT of an audio signal
 Use the fft command to compute the Discrete Fourier Transform of the signal x. Plot the amplitude spectrum of the signal. Normalize the frequency axis by the sampling frequency (i.e., your frequency axis should range from -0.5 to 0.5) then plot.
+https://github.com/therealbazzi/Audio-Signal-Processing-Basics/blob/83b97faa6cefe1bbe675940cb974f41b2e52911d/Main.m#L11-L26
+
+## Part 3 -- Generating signals
+Let's generate some cosines and complex exponentials, then plot them.
+https://github.com/therealbazzi/Audio-Signal-Processing-Basics/blob/83b97faa6cefe1bbe675940cb974f41b2e52911d/Main.m#L27-L71
+
+
 
